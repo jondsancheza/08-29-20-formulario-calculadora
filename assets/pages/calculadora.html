@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/calculadora.css">
+</head>
+
+<body>
+    <!--Ingreso datos-->
+    <div class="contenedorOperacion">
+        <div class="titulo">
+            <h1>CALCULADORA</h1>
+        </div>
+        <div class="numeros">
+            <input type="number" class="entrada" id="num1" placeholder="Ingrese el primer número ">
+            <input type="number" class="entrada" id="num2" placeholder="Ingrese el segundo número">
+
+        </div>
+        <div class="contenedorBoton">
+            <button class="boton" id="suma" onsubmit="operacion(event)">+</button>
+            <button class="boton" id="resta">-</button>
+            <button class="boton" id="multiplicacion">X</button>
+            <button class="boton" id="division">/</button>
+        </div>
+
+        <div class="contenedorRespuesta">
+            <h1 id="respuesta"></h1>
+        </div>
+    </div>
+    <script src="../js/calculadora.js"></script>
+</body>
+
+</html>

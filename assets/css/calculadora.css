@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(64, 177, 177);
+}
+
+.titulo{
+    padding: 20px;
+    color: rgb(16 23 25);
+}
+
+.contenedorOperacion{
+    width: 50%;
+    height: 350px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://conceptodefinicion.de/wp-content/uploads/2011/03/numero.jpg");
+    background-size: cover;
+    
+}
+
+.entrada{
+    width: 33%;
+    padding: 10px;
+    background-color: aqua;
+    margin: 10px;
+    border: 1px solid aqua;
+    border-radius: 5px;
+}
+
+.numeros{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.contenedorBoton{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.boton{
+    padding: 10px;
+    width: 15%;
+    font-size: large;
+    background-color: aqua;
+    border: 1px solid aqua;
+    border-radius: 10px;
+}
+
+.contenedorRespuesta{
+    padding: 10px;
+    margin-top: 30px;
+    color: rgb(16 23 25);
+}
